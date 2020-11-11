@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.bg {
+  /* The image used */
+  background-image: url("/src/laptop-in-coworking-space.jpg");
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-bg {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1532449126113-fc07ccec79a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80");
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Phone CSS */
+/* 
+.main-card-div {
+  margin-top: 13.75rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-card {
+  height: 8rem;
+  background-color: #b1b493;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.phone-home-cols {
+  margin: 8rem;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@include media-breakpoint-down(sm) {
+}
+@include media-breakpoint-down(md) {
+}
+@include media-breakpoint-down(lg) {
+}
+@include media-breakpoint-down(xl) {
+}
+@include media-breakpoint-down(xxl) {
 }
