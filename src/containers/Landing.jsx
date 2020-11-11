@@ -29,6 +29,9 @@ const Landing = () => {
                     <h4 class='card-title'>Daniel Dunn's Portfolio </h4>
                     <p class='card-text'>
                       <Link to='/home'>Home</Link>
+                      <Link to='/skills'>Skills</Link>
+
+                      <Link to='/projects'>Projects</Link>
                     </p>
                   </div>
                   {/*  Card Content End */}

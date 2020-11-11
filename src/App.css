@@ -21,7 +21,7 @@
 }
 
 /* Phone CSS */
-/* 
+
 .main-card-div {
   margin-top: 13.75rem;
 }
@@ -33,7 +33,10 @@
 
 .phone-home-cols {
   margin: 8rem;
-} */
+}
+.skill-cards {
+  width: 8rem;
+}
 
 @include media-breakpoint-down(sm) {
 }
