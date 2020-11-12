@@ -3,7 +3,7 @@ import React from "react";
 import { Fragment } from "react";
 import NavBar from "../components/NavBar";
 
-const Projects = () => {
+const About = () => {
   return (
     <Fragment>
       {/*  Container Start */}
@@ -16,7 +16,7 @@ const Projects = () => {
 
             <div class='card'>
               <div class='card-body'>
-                <h2>Projects</h2>
+                <h2>About</h2>
               </div>
             </div>
             {/* Title Card End  */}
@@ -35,4 +35,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default About;

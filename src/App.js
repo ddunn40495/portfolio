@@ -7,6 +7,7 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "./containers/Home";
 import Skills from "./containers/Skills";
 import Projects from "./containers/Projects";
+import About from "./containers/About";
 
 function App() {
   return (
@@ -15,8 +16,6 @@ function App() {
         <Switch>
           <Route exact path='/' render={() => <Landing />} />
           <Route exact path='/home' render={() => <Home />} />
-          <Route exact path='/skills' render={() => <Skills />} />
-          <Route exact path='/projects' render={() => <Projects />} />
         </Switch>
       </BrowserRouter>
     </Fragment>

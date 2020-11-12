@@ -9,7 +9,11 @@ const NavBar = () => {
     <Fragment>
       <nav class='navbar navbar-light bg-light'>
         <div class='container-fluid'>
-          <span class='navbar-brand mb-0 h1'>Navbar</span>
+          <Link to='/home'>
+            {" "}
+            <span class='navbar-brand mb-0 h1'>Daniel</span>
+          </Link>
+
           <ul class='navbar-nav'>
             <li class='nav-item'>
               <Link to='/about'>About Me</Link>
