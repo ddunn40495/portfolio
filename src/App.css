@@ -34,8 +34,21 @@
 .phone-home-cols {
   margin: 8rem;
 }
+
+.phone-skills-cols {
+  margin: 1rem;
+}
 .skill-cards {
   width: 8rem;
+}
+
+#html-css-pic {
+  background-image: url(./assets/img/html-css-logo.png);
+}
+
+.skills-pic {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @include media-breakpoint-down(sm) {
